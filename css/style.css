@@ -49,4 +49,231 @@ strong {
   margin: 0 auto;
 }
 
+/*
+    *Heading
+*/
 
+h1{
+    font-size: 1.375rem;
+    color: #666A6c;
+}
+
+
+
+/*
+    *Header and Hero
+*/
+
+.header {
+    background: #FFF;
+    width: 120px;
+    border-right: solid 1px #DCE0E0;
+}
+
+.hero img{
+    width: 100%;
+}
+
+/*
+    *Info Section
+*/
+.info{
+    background: #FFF;
+    text-align: center;
+    padding: 1.5625rem;
+}
+
+.info h1{
+    margin-bottom: .3125rem;
+}
+
+.info .profile{
+    margin-bottom: 1.5rem;
+}
+
+.owner-details img{
+    border-radius: 50%;
+    margin-bottom: .375rem;
+}
+
+.info h2.relationship, .info h2.name{
+    color:#909597;
+    margin-bottom: .1875rem;
+}
+
+.info h2.name{
+    font-weight: bold;
+}
+
+.info p.location{
+    margin-bottom: 1.25rem;
+}
+
+
+.info .icon {
+    float: left;
+    width: 33.3%;
+}
+
+.info .icon img{
+    height: 30px;
+    margin-bottom: .1875rem;
+}
+
+.info .booking h2{
+    font-weight: 600;
+    font-size: 1.375rem;
+    margin-bottom: .8125rem;
+}
+
+.info .time{
+    font-size: 1rem;
+}
+
+
+/*
+    *Details Section
+*/
+
+.details {
+    text-align: center;
+    padding: 1.5625rem;
+    background: rgb(245,245,245);
+}
+
+.details .about {
+    border-bottom: 1px solid #DCE0E0;
+    padding: 1rem 0 1.25rem 0;
+}
+
+.details .about h3{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.details .about p{
+    text-align: left;
+    line-height: 1.375rem;
+    font-size: 0.8125rem;
+}
+
+.details .about a{
+    margin: 0.9375rem 0;
+    display: block;
+}
+
+.details .care {
+    border-bottom: 1px solid #DCE0E0;
+    padding: 1rem 0 1.25rem 0;
+    text-align: left;
+    line-height: 1.25rem;
+}
+
+.details .care h4{
+    margin: 0 0 .625rem 0;
+}
+
+.details .care strong{
+    font-weight: 600;
+}
+
+.details .games {
+    border-bottom: 1px solid #DCE0E0;
+    padding: 1rem 0 1.25rem 0;
+    text-align: left;
+    line-height: 1.25rem;
+}
+
+.details .games h4{
+    margin: 0 0 .625rem 0;
+}
+
+.details .petPhotos{
+    padding: 1rem 0 1.25rem 0;
+}
+
+.details .petPhotos img{
+    margin: 0 0 0.5rem 0;
+}
+
+@media only screen and (min-width: 1060px) {
+
+
+    .container {
+        width: 1040px;
+        margin: 0 auto;
+    }
+
+    .column {
+        float: left;
+    }
+
+    .button {
+        width: 275px;
+        margin: auto;
+    }
+
+    .info h1 {
+        margin-bottom: 11px;
+    }
+
+    .info h2 {
+        margin-bottom: 3px;
+    }
+
+    .info .profile {
+        width: 660px;
+        border-right: 1px solid #DCE0E0;
+    }
+
+    .info .booking {
+        width: 380px;
+    }
+
+    .info .owner-details {
+        width: 20%;
+    }
+
+    .info .pet-details {
+        width: 80%;
+        text-align: left;
+    }
+
+    .info .pet-details .icon {
+            width: inherit;
+            margin-right: 50px;
+    }
+
+    .info .pet-details .icon img {
+                display: block;
+                margin: 3px auto 3px;
+    }
+
+    
+
+    .details .deContainer{
+        width: 690px;
+        margin: 0 0 0 400px;
+    }
+
+    .details .petPhotos img{
+        display: inline;
+        width: 200px;
+        margin: 0 0.85rem;
+    }
+
+    .details .about a{
+        text-align: left;
+    }
+    
+    .details .care .column{
+        width: 33%;
+    }
+
+    .details .games .column{
+        width: 33%;
+    }
+
+
+}
